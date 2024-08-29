@@ -1,0 +1,64 @@
+.carouselDiv {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.allPhotos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*position: relative;*/
+}
+
+.mainPhoto {
+  position: relative;
+}
+
+.left {
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  transform: rotate(135deg);
+  left: 28.5%;
+}
+
+.right {
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  transform: rotate(-45deg);
+  right: 28.5%;
+}
+
+.right, .left {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.nr1 {
+  order: 1;
+  width: 10%;
+}
+
+.nr2 {
+  order: 2;
+  width: 15%;
+}
+
+.nr3 {
+  order: 3;
+  width: 40%;
+}
+
+.nr4 {
+  order: 4;
+  width: 15%;
+}
+
+.nr5 {
+  order: 5;
+  width: 10%;
+}
