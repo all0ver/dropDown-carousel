@@ -1,0 +1,60 @@
+.dropDownDiv {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.dropDownMain {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+}
+
+.dropBtn {
+  height: 15px;
+  width: 15px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transform: translateY(-0.25rem) rotate(45deg);
+  cursor: pointer;
+}
+
+.dropContent {
+  position: absolute;
+  display: none; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 7rem;
+  left: 8.25rem;
+  top: 0.5rem;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+  flex: 1;
+  padding: 0.5rem 1rem;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  text-underline-offset: 0.25rem;
+  background: #e2e2e2;
+}
+
+.flex {
+  display: flex;
+}
